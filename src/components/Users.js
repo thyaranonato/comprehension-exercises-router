@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Users extends Component {
   render() {
-    const { greetingsMessage = 'Hello World' } = this.props
+    const { greetingsMessage } = this.props
     return (
       <div>
         <h2>Users</h2>
