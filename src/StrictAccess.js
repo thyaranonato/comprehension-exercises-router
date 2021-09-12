@@ -6,7 +6,7 @@ class StrictAccess extends React.Component {
     const { username, password } = this.props.user;
     if (!(username === 'joao' && password === '1234')) {
       alert('Access denied');
-      return <Redirect to='/' />
+      return <Redirect to="/" />
     }
     return (
       <p>Welcome joao!</p>
